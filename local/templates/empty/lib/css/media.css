@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@media (max-width:900px) {
+	.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber{font-size: 12px}
+	.dpanel.data-panel .d-panel-body .done{width: calc(50% - 15px);}
+	.logout{font-size: 14px;}
+
+}
+
+@media (max-width:700px) {
+	
+	
+	span.x7{ display: block; width: 100%}
+	.fone{margin: 10px 15px 10px 0}
+
+	.datagrid-header td, .datagrid-body td, .datagrid-footer td{display: none}
+	.datagrid-header td:nth-child(1),
+	.datagrid-body td:nth-child(1){display:table-cell}
+	.datagrid-header td:nth-child(2),
+	.datagrid-body td:nth-child(2){display:table-cell; width: 100%}
+	.datagrid-header .datagrid-cell{padding: 2px 3px;}
+	.message_datagrid-cell-c2-mdata{width: 100% !important}
+	.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber{padding: 2px 3px;}
+	
+	
+	.datagrid-body table.mtx{width: 100%; border: none; border-collapse: collapse}
+	.datagrid-body table.mtx td{ padding: 5px 0 ; border: none; vertical-align: top}
+	.datagrid-body table.mtx td:nth-child(1){color: #a6a6a6;width: 35%;padding-right: 10px;}
+	.pagination table{float: none; width: 100%}
+	.pagination-info{float: none; width: 100%; text-align: center}
+	.hdr.flex h1,
+	.pagination table td:nth-child(6){ display: none}
+	.dropdown{ font-size: 13px;}
+	.ddwrp{height: 36px;width: 144px; min-width: 144px}
+	.dropdown .label,
+	.hdr.flex button{width: 144px; height: 36px; font-size: 13px}
+	.hdr.flex button span{ padding-left: 20px}
+	.dropdown .label span{height: 36px; line-height: 36px}
+	.dropdown .label{padding: 0 35px 0 20px; background-position: 115px center;}
+	.d-panel-body{ max-height: none; overflow: hidden}
+	.x700{display: block; margin-bottom: 15px}
+	.cwrp{padding: 20px 0}
+	}
+	
+	@media (max-width:600px) {
+			.data-panel.mt .done,
+			.dpanel.data-panel .d-panel-body .done{width: 100%; margin-right: 0}
+		.data-panel.mt .done:nth-child(2),
+		.data-panel.mt .done:nth-child(1){width: auto; margin-right: 15px}
+
+		.pline.flex{display: block}
+		.pline .ld{margin-bottom: 10px;}
+		.logout span{display: block; font-size: 0;}
+		header img{width: 130px;}
+
+	}
